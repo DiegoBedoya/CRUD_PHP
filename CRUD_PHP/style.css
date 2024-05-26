@@ -1,0 +1,183 @@
+.paging_numbers {
+	float: right;
+}
+
+.pagination li {
+	margin: 0 5px;
+}
+
+.pagination li a {
+	border-radius: 5px;
+
+	background: #6ca1cf;
+
+	color: #fff;
+}
+
+.pagination li a:hover {
+	background: #faf8f6;
+
+	color: #fffafa;
+}
+
+.dataTables_length,
+.dataTables_paginate {
+	margin-top: 15px !important;
+}
+
+/* Estilos para el paginador */
+
+.pagination li a.pagina,
+.pagination li span.pagina {
+	color: white;
+
+	background-color: #0d6efd;
+
+	border-radius: 5px;
+
+	padding: 8px 10px;
+
+	border: 1px solid white;
+
+	/* Borde blanco añadido */
+}
+
+.pagination li a.pagina:hover,
+.pagination li span.pagina:hover {
+	background-color: #361f75;
+
+	color: white;
+
+	border: 1px solid white;
+
+	/* Mantiene el borde blanco al pasar el mouse sobre el elemento */
+}
+
+.pagination li span.pagina-disabled {
+	color: white;
+
+	background-color: #0d6efd;
+
+	border-radius: 5px;
+
+	padding: 8px 10px;
+
+	border: 1px solid white;
+
+	/* Borde blanco añadido */
+}
+
+.pagination li.active a.pagina,
+.pagination li.active span.pagina {
+	background-color: #0d6efd;
+
+	/* Un azul más claro */
+
+	color: white;
+
+	border: 1px solid white;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+	#paginacion li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion1 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion2 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion3 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion3 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionReceta li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 421px) and (max-width: 500px) {
+	#paginacion li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion1 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion2 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion3 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionReceta li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionmovimiento_detalle li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+	#paginacion li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion1 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion2 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion3 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionReceta li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionmovimiento_detalle li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 950px) {
+	#paginacion li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion1 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion2 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacion3 li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionReceta li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+
+	#paginacionmovimiento_detalle li:not(.active):not(.disabled):not(.notDisable) {
+		display: none;
+	}
+}
